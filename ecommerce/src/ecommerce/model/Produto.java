@@ -6,9 +6,10 @@ public abstract class Produto {
 	private String nome;
 	private int tipo;
 	private float preco;
-	private int data;
+	private String data;
 
-	public Produto(int numero, String nome, int tipo, float preco, int data) {
+	
+	public Produto(int numero, String nome, int tipo, float preco, String data) {
 		super();
 		this.numero = numero;
 		this.nome = nome;
@@ -49,11 +50,11 @@ public abstract class Produto {
 		this.preco = preco;
 	}
 
-	public int getData() {
+	public String getData() {
 		return data;
 	}
 
-	public void setData(int data) {
+	public void setData(String data) {
 		this.data = data;
 	}
 
@@ -65,6 +66,9 @@ public abstract class Produto {
 		case 1 -> tipo = "Jogo";
 		case 2 -> tipo = "Console";
 		}
+		System.out.println("\n\no------------------------------------o");
+		System.out.println("|           Dados da Produto         |");
+		System.out.println("o------------------------------------o");
 		System.out.println("Id do Produto: " + this.numero);
 		System.out.println("Nome do Produto: " + this.nome);
 		System.out.println("Ano de lançamento: " + this.data);

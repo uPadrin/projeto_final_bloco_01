@@ -4,7 +4,7 @@ public class Console extends Produto {
 
 	private String marca;
 
-	public Console(int numero, String nome, int tipo, float preco, int data, String marca) {
+	public Console(int numero, String nome, int tipo, float preco, String data, String marca) {
 		super(numero, nome, tipo, preco, data);
 		this.marca = marca;
 	}

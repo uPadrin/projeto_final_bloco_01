@@ -4,7 +4,7 @@ public class Jogo extends Produto {
 	private String genero;
 
 
-	public Jogo(int numero, String nome, int tipo, float preco, int data, String genero) {
+	public Jogo(int numero, String nome, int tipo, float preco, String data, String genero) {
 		super(numero, nome, tipo, preco, data);
 		this.genero = genero;
 	}
