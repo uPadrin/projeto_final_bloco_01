@@ -49,33 +49,33 @@ public class Menu {
 			}
 			switch (op) {
 			case 1:
-				
+
 				System.out.println("Adicionar Produto\n\n");
 
 				keyPress();
 				break;
 			case 2:
-				
+
 				System.out.println("Listar todos os produtos\n\n");
 
 				keyPress();
 				break;
 			case 3:
-				
+
 				System.out.println("Buscar Produto por ID\n\n");
 
 				keyPress();
 				break;
 			case 4:
-				
+
 				System.out.println("Atulizar Produto\n\n");
-				
+
 				keyPress();
 				break;
 			case 5:
 
 				System.out.println("Apaga Produto\n\n");
-				
+
 				keyPress();
 				break;
 			default:
